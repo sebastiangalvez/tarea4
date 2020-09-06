@@ -1,0 +1,29 @@
+Dentro del directorio creado para la tarea:
+1.- git init
+2.- nano operaciones.py
+En el editor de texto:
+definir las variables x=3+4 e y=2*5
+3.- print(f'La suma 3+4 es {x}')
+4.- print(f'La multiplicación 2*5 es {y}')
+Guardar y salir del editor de texto:
+5.- git add operaciones.py
+6.- git commit -m 'Primer cambio'
+(Los comandos 5 y 6 son utilizados en 3 otras ocasiones con este y el siguiente archivo para registrar los cambios realizados)
+7.- nano operaciones.py
+Seguir editando el archivo operaciones.py definiendo el resto de las operaciones con el mismo metodo descrito anteriormente
+Guardar el archivo, registrar los cambios.
+8.- nano alumnos.py
+En el editor de texto:
+alumno1=dict(nombre='Sebastián',Nota_Programación=70,Nota_Física=70)
+Definir 3 otros diccionarios que representan los alumnos y sus notas.
+(Siempre registrar los cambios realizados)
+9.- print(alumno2) (en el editor de texto)
+Ya con ambos archivos creados se procede a subir el repositorio a github 
+10.- git remote add origin https://github.com/sebastiangalvez/tarea4.git
+11.- git push --set-upstream origin master
+Una vez todo terminado se abre un último editor de texto nano
+12.- nano comandos.txt
+Se escribe este documento.
+13.- git add comandos.txt
+14.- git commit -m 'Último cambio'
+15.- git push 
