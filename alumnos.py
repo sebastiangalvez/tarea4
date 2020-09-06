@@ -1,2 +1,5 @@
 alumno1=dict(nombre='Sebastián',Nota_Programación=70,Nota_Física=70)
 alumno2=dict(nombre='Ignacio',Nota_Programación=50,Nota_Física=64)
+alumno3=dict(nombre='Javiera',Nota_Programación=65,Nota_Física=43)
+alumno4=dict(nombre='Camila',Nota_Programación=62,Nota_Física=70)
+print(alumno2)
